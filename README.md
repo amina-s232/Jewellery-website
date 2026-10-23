@@ -1,43 +1,55 @@
-# Aurora jewels - Modern Jewelry E-commerce
+# Aurora Jewels
 
-A stunning, responsive jewelry website built with **Next.js 14**, **TypeScript**, and **Yarn**.
+A responsive jewellery e-commerce front end built with Next.js, TypeScript and Tailwind CSS.
 
+## Features
 
-## ✨ Features
-
-- Fully responsive design
-- Beautiful product gallery with filters
-- Cart functionality
+- Responsive layout
+- Product gallery with filters
+- Cart
 - Wishlist
-- Modern UI with smooth animations
-- Optimized for performance (Next.js App Router)
+- Animations with Framer Motion
 
-## 🛠️ Tech Stack
+## Tech stack
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Package Manager**: Yarn
-- **Deployment**: Vercel (recommended)
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+
+- Next.js 16 (App Router), React 19
+- TypeScript
+- Tailwind CSS 4
+- Framer Motion
+- Three.js via `@react-three/fiber` and `@react-three/drei`
 - Yarn
 
-### Installation
+## Getting started
+
+Requires Node.js 20.9 or newer and [Yarn](https://yarnpkg.com).
 
 ```bash
-# Clone the repo
-git clone  https://github.com/amina-s232/Jewellery-website.git
-
-# Go to project directory
-cd jwelry
-
-# Install dependencies
+git clone https://github.com/amina-s232/Jewellery-website.git
+cd Jewellery-website
 yarn install
-
-# Run development server
 yarn dev
+```
+
+Open http://localhost:3000.
+
+## Scripts
+
+| Command      | What it does                  |
+| ------------ | ----------------------------- |
+| `yarn dev`   | Start the development server  |
+| `yarn build` | Create a production build     |
+| `yarn start` | Serve the production build    |
+| `yarn lint`  | Run ESLint                    |
+
+## Project structure
+
+```
+app/          Routes (Next.js App Router)
+components/   UI components
+lib/          Shared helpers
+public/       Static assets
+```
+
+## License
+
+MIT
